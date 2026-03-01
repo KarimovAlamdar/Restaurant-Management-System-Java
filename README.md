@@ -6,7 +6,7 @@ I built this project from scratch to demonstrate my programming skills and profi
 ## 🚀 Features
 - **Table Management:** Reservation and cancellation of both "Office" (Private) and "Regular" tables.
 - **Dynamic Menu:** Interactive sections for Hot Meals, Fast Food, and Drinks.
-- **Service Fee:** Automatic 10 AZN deposit fee added for Office/Private tables.
+- **Service Fee:** Automatic 10$ deposit fee added for Office/Private tables.
 - **Payment System:** Choice between Cash and Credit Card (Credit card payments include a 10% cashback discount).
 - **Allergy Check:** Integration of an **Allergic interface** to ensure customer safety and personalized service.
 - **File System:** Automatic generation of a `receipt.txt` file at the end of each order.

@@ -74,7 +74,7 @@ public class Menu {
         }
         if (Main.chooice4.equals("regular")) {
             System.out.println("----------------------------");
-            System.out.printf("TOTAL BILL: %.2f  Manat\n", Main.bill);
+            System.out.printf("TOTAL BILL: %.2f  $\n", Main.bill);
             System.out.println("============================");
             Payment payment = new Payment();
             payment.Payment();
@@ -88,7 +88,7 @@ public class Menu {
                     writer.println("- " + item);
                 }
 
-                writer.println("COMMON BILL: " + Main.bill + " Manat");
+                writer.println("COMMON BILL: " + Main.bill + " $");
                 System.out.println("Receipt has been addded.");
                 writer.println("--------------------------------\n");
             } catch (IOException e) {
@@ -98,7 +98,7 @@ public class Menu {
         else if (Main.chooice4.equals("office")) {
             double amount = Main.bill + 10;
             System.out.println("----------------------------");
-            System.out.printf("TOTAL BILL: %.2f  Manat\n", amount);
+            System.out.printf("TOTAL BILL: %.2f  $\n", amount);
             System.out.println("============================");
             Payment payment = new Payment();
             payment.Payment();
@@ -112,7 +112,7 @@ public class Menu {
                     writer.println("- " + item);
                 }
 
-                writer.println("COMMON BILL: " + Main.bill + " Manat");
+                writer.println("COMMON BILL: " + Main.bill + " $");
                 System.out.println("Receipt has been addded.");
                 writer.println("--------------------------------\n");
             } catch (IOException e) {

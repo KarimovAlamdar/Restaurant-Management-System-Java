@@ -36,7 +36,7 @@ public class Payment implements Cashable{
         }
         else if (Main.chooice4.equals("office")) {
             double money = Main.bill + 10;
-            System.out.println("You must pay %.2f" + money + " manat(because the cabinet has a 10 manat deposit fee)");
+            System.out.println("You must pay %.2f" + money + " manat(because the cabinet has a 10$ deposit fee)");
             while (true) {
                 System.out.println("How you want to pay(cash/credit card)");
                 String amount = scanner.nextLine();
